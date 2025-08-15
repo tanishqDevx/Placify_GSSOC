@@ -391,7 +391,7 @@ const LandingPage = () => {
                 className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
               >
                 {/* Primary CTA Button - Optimized for performance */}
-                <button
+                  <button
                   onClick={() => navigate("/register")}
                   className="group relative inline-flex items-center justify-center px-6 py-4 text-lg font-semibold text-purple-700 bg-white rounded-2xl shadow-xl transition-all duration-200 overflow-hidden btn-hover"
                 >
@@ -402,13 +402,9 @@ const LandingPage = () => {
                   </span>
                 </button>
 
-                {/* Secondary CTA Button - Optimized for performance */}
+                {/* Secondary CTA Button */}
                 <button
-                  onClick={() => {
-                    document
-                      .getElementById("works")
-                      ?.scrollIntoView({ behavior: "smooth" });
-                  }}
+                  onClick={() => navigate("/resume-builder")}
                   className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white border-2 border-white/30 rounded-2xl hover:bg-white/10 hover:border-white/50 transition-all duration-200 backdrop-blur-sm hover-lift will-change-transform"
                 >
                   <span className="flex items-center space-x-2">
@@ -416,6 +412,7 @@ const LandingPage = () => {
                     <span>See How It Works</span>
                   </span>
                 </button>
+                
               </motion.div>
 
               {/* Trust Indicators */}

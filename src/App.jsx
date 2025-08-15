@@ -19,6 +19,7 @@ import ProfilePage from "./pages/ProfilePage";
 import ResultsPage from "./pages/ResultsPage";
 
 import RoleSelectionPage from "./pages/RoleSelectionPage";
+import Resume from "./pages/Resume";
 import CompanyForm from "./pages/register/CompanyForm";
 import EmployeeForm from "./pages/register/EmployeeForm";
 import InstitutionForm from "./pages/register/InstitutionForm";
@@ -109,6 +110,7 @@ const AppWrapper = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/auth" element={<AuthPage />} />
             <Route path="/register" element={<RoleSelectionPage />} />
+            <Route path="/resume-builder" element={<Resume />} />
             <Route path="/register/student" element={<StudentForm />} />
             <Route path="/register/institution" element={<InstitutionForm />} />
             <Route path="/register/employee" element={<EmployeeForm />} />
