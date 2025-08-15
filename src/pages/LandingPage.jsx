@@ -404,7 +404,7 @@ const LandingPage = () => {
 
                 {/* Secondary CTA Button */}
                 <button
-                  onClick={() => navigate("/resume-builder")}
+                  onClick={() => navigate("/resume")}
                   className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white border-2 border-white/30 rounded-2xl hover:bg-white/10 hover:border-white/50 transition-all duration-200 backdrop-blur-sm hover-lift will-change-transform"
                 >
                   <span className="flex items-center space-x-2">

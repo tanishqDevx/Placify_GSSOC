@@ -110,7 +110,7 @@ const AppWrapper = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/auth" element={<AuthPage />} />
             <Route path="/register" element={<RoleSelectionPage />} />
-            <Route path="/resume-builder" element={<Resume />} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/register/student" element={<StudentForm />} />
             <Route path="/register/institution" element={<InstitutionForm />} />
             <Route path="/register/employee" element={<EmployeeForm />} />

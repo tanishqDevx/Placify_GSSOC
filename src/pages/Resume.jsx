@@ -9,7 +9,7 @@ import { ResumeProvider } from "../contexts/resume-context"
 import { ResumeBuilder } from "../components/resume-builder"
 
 export default function HomePage() {
-  const [currentStep, setCurrentStep] = useState<"welcome" | "builder">("welcome")
+  const [currentStep, setCurrentStep] = useState("welcome")
 
   return (
     <ResumeProvider>

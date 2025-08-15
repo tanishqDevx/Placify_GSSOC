@@ -20,6 +20,7 @@ export interface Experience {
   endDate: string
   current: boolean
   description: string[]
+  achievements?: string[] 
 }
 
 export interface Education {
