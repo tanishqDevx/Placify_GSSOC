@@ -425,31 +425,6 @@ export function ResumeExport() {
             </Button>
           </CardContent>
         </Card>
-
-        {/* Share Options */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Share2 className="h-5 w-5" />
-              Share Resume
-            </CardTitle>
-            <CardDescription>Share your resume with others</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-3">
-            <Button variant="outline" onClick={handleWebShare} className="w-full justify-start">
-              <Share2 className="h-4 w-4 mr-2" />
-              Share Link
-            </Button>
-            <Button variant="outline" onClick={handleCopyLink} className="w-full justify-start">
-              <Copy className="h-4 w-4 mr-2" />
-              Copy Link
-            </Button>
-            <Button variant="outline" onClick={handleEmailShare} className="w-full justify-start">
-              <Mail className="h-4 w-4 mr-2" />
-              Email Resume
-            </Button>
-          </CardContent>
-        </Card>
       </div>
 
       {/* Resume Stats */}

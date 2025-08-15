@@ -14,7 +14,6 @@ import { CertificatesForm } from "../components/forms/certificates-form"
 import { LanguagesForm } from "../components/forms/languages-form"
 import { TemplateSelection } from "../components/template-selection"
 import { ResumeExport } from "../components/resume-export"
-import { ResumePreview } from "../components/resume-preview"
 import { User, Briefcase, GraduationCap, Zap, FolderOpen, Award, Languages, Download, Palette } from "lucide-react"
 
 const formSteps = [
@@ -54,10 +53,6 @@ export function ResumeBuilder() {
     <div className="max-w-6xl mx-auto p-6">
       {/* Progress Header */}
       <div className="mb-8">
-        <div className="flex items-center justify-between mb-4">
-          <h1 className="text-3xl font-bold text-gray-900">Build Your Resume</h1>
-          <ResumePreview />
-        </div>
         <Progress value={progress} className="mb-4" />
         <p className="text-sm text-gray-600">
           Step {currentStep + 1} of {formSteps.length} • {Math.round(progress)}% Complete
@@ -113,7 +108,7 @@ export function ResumeBuilder() {
                 Previous
               </Button>
               <Button onClick={handleNext} disabled={currentStep === formSteps.length - 1}>
-                {currentStep === formSteps.length - 1 ? "Complete" : "Next"}
+                {currentStep === formSteps.length - 1 ? "" : "Next"}
               </Button>
             </div>
           </div>
