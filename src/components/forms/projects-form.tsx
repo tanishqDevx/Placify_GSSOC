@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import { useResume } from "../../contexts/resume-context"
+import { useResume } from "../../context/resume-context"
 import { Button } from "../../components/ui/button"
 import { Input } from "../../components/ui/input"
 import { Label } from "../../components/ui/label"

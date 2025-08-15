@@ -1,6 +1,6 @@
 "use client"
 
-import { useResume } from "../contexts/resume-context"
+import { useResume } from "../context/resume-context"
 import { Button } from "../components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
 import { Download, Printer, FileText, Share2, Copy, Mail, Eye } from "lucide-react"

@@ -5,7 +5,7 @@ import { Button } from "../components/ui/button"
 import { Card, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
 import { Badge } from "../components/ui/badge"
 import { FileText, Palette, Upload, Download } from "lucide-react"
-import { ResumeProvider } from "../contexts/resume-context"
+import { ResumeProvider } from "../context/resume-context"
 import { ResumeBuilder } from "../components/resume-builder"
 
 export default function HomePage() {

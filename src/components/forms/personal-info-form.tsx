@@ -1,6 +1,6 @@
 "use client"
 
-import { useResume } from "../../contexts/resume-context"
+import { useResume } from "../../context/resume-context"
 import { Input } from "../../components/ui/input"
 import { Label } from "../../components/ui/label"
 import { Textarea } from "../../components/ui/textarea"

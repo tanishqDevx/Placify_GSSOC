@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { useResume } from "../contexts/resume-context"
+import { useResume } from "../context/resume-context"
 import { Button } from "../components/ui/button"
 import { Card, CardContent } from "../components/ui/card"
 import { Input } from "../components/ui/input"
